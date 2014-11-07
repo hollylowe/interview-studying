@@ -1,5 +1,14 @@
 import java.lang.System; 
 
+/****
+Performance: O(n Log n)
+Why not? When you dont have the space to duplicate the size of the data or
+			when you have something like an array that is hard to manipulate in place 
+			(easier to manipulate linked list in place).
+
+
+*****/
+
 public class merge_sort{
 
 	public static void main(String [] args){
@@ -59,5 +68,8 @@ public class merge_sort{
 		}
 		return array; 
 	}
-
 }
+
+
+
+
