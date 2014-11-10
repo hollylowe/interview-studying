@@ -14,7 +14,7 @@ public class merge_sort{
 	public static void main(String [] args){
 		System.out.println("test");
 
-		int array [] = {1, 7, 4, 5, 8, 3, 99, 102};
+		int array [] = {1, 7, 4, 5, 8, 3, 99, 102, 102, 102};
 		
 
 		int[] solution = sort(array);
